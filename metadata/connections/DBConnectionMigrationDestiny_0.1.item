@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_Fe4wAHrtEemfafCZgkJvjg" name="DBConnectionMigrationDestiny" id="__S35sHrsEemfafCZgkJvjg" label="DBConnectionMigrationDestiny" dataPackage="_FfVb-nrtEemfafCZgkJvjg" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://localhost:3306/migration_destiny?noDatetimeStringSync=true&amp;serverTimezone=UTC" dbVersionString="MYSQL_8" Port="3306" Username="root" Password="" ServerName="localhost" DatasourceName="" FileFieldName="" SID="migration_destiny" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true&amp;serverTimezone=UTC" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_Fe4wAXrtEemfafCZgkJvjg" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_FfVb8HrtEemfafCZgkJvjg" tag="package filter" value=""/>
+    <taggedValue xmi:id="_FfVb8XrtEemfafCZgkJvjg" tag="Status" value=""/>
+    <taggedValue xmi:id="_FfVb8nrtEemfafCZgkJvjg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_FfVb83rtEemfafCZgkJvjg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_FfVb9HrtEemfafCZgkJvjg" tag="Description" value=""/>
+    <taggedValue xmi:id="_FfVb9XrtEemfafCZgkJvjg" tag="Author" value=""/>
+    <taggedValue xmi:id="_FfVb9nrtEemfafCZgkJvjg" tag="otherParameter"/>
+    <taggedValue xmi:id="_FfVb93rtEemfafCZgkJvjg" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_FfVb-HrtEemfafCZgkJvjg" tag="DB ProductVersion" value="5.5.5-10.1.38-MariaDB"/>
+    <taggedValue xmi:id="_FfVb-XrtEemfafCZgkJvjg" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_Fe4wAnrtEemfafCZgkJvjg" key="CONN_PARA_KEY_USERNAME" value="root"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_FfVb-nrtEemfafCZgkJvjg" name="migration_destiny" dataManager="_Fe4wAHrtEemfafCZgkJvjg">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_25V7kHrvEemfafCZgkJvjg" name="tabla1" id="_25TfUHrvEemfafCZgkJvjg" label="MigrationDestinyTabla1" tableType="TABLE">
+      <taggedValue xmi:id="_25V7kXrvEemfafCZgkJvjg" tag="Comment" value=""/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_s1KkEnrzEemfafCZgkJvjg" name="col1" label="col1" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
+        <taggedValue xmi:id="_s1KkE3rzEemfafCZgkJvjg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_s1KkFHrzEemfafCZgkJvjg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_s1KkFXrzEemfafCZgkJvjg" name="INT" numericPrecisionRadix="10" javaDataType="4"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_s1KkFnrzEemfafCZgkJvjg" name="col2" label="col2" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
+        <taggedValue xmi:id="_s1KkF3rzEemfafCZgkJvjg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_s1KkGHrzEemfafCZgkJvjg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_s1KkGXrzEemfafCZgkJvjg" name="INT" numericPrecisionRadix="10" javaDataType="4"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_s1KkGnrzEemfafCZgkJvjg" name="col3" label="col3" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
+        <taggedValue xmi:id="_s1KkG3rzEemfafCZgkJvjg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_s1KkHHrzEemfafCZgkJvjg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_s1KkHXrzEemfafCZgkJvjg" name="INT" numericPrecisionRadix="10" javaDataType="4"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_s1KkHnrzEemfafCZgkJvjg" name="col4" label="col4" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
+        <taggedValue xmi:id="_s1KkH3rzEemfafCZgkJvjg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_s1KkIHrzEemfafCZgkJvjg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_s1KkIXrzEemfafCZgkJvjg" name="INT" numericPrecisionRadix="10" javaDataType="4"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

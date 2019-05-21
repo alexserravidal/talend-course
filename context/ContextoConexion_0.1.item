@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_m2rbEHuxEemCB6X-rP1MMQ" confirmationNeeded="false" name="development">
+    <contextParameter xmi:id="_dsMMAHuyEemCB6X-rP1MMQ" comment="" name="host" prompt="host?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_dsMMAXuyEemCB6X-rP1MMQ" comment="" name="login" prompt="login?" promptNeeded="false" type="id_String" value="root"/>
+    <contextParameter xmi:id="_dsMMAnuyEemCB6X-rP1MMQ" comment="" name="password" prompt="password?" promptNeeded="false" type="id_Password" value=""/>
+    <contextParameter xmi:id="_dsMMA3uyEemCB6X-rP1MMQ" comment="" name="database" prompt="database?" promptNeeded="false" type="id_String" value="talend"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_jvhncHuyEemCB6X-rP1MMQ" confirmationNeeded="false" name="production">
+    <contextParameter xmi:id="_jvhncXuyEemCB6X-rP1MMQ" comment="" name="host" prompt="host?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_jvhncnuyEemCB6X-rP1MMQ" comment="" name="login" prompt="login?" promptNeeded="false" type="id_String" value="root"/>
+    <contextParameter xmi:id="_jvhnc3uyEemCB6X-rP1MMQ" comment="" name="password" prompt="password?" promptNeeded="false" type="id_Password" value=""/>
+    <contextParameter xmi:id="_jvhndHuyEemCB6X-rP1MMQ" comment="" name="database" prompt="database?" promptNeeded="false" type="id_String" value="talend"/>
+  </talendfile:ContextType>
+</xmi:XMI>

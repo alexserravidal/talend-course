@@ -1,0 +1,119 @@
+-- phpMyAdmin SQL Dump
+-- version 4.8.5
+-- https://www.phpmyadmin.net/
+--
+-- Servidor: 127.0.0.1
+-- Tiempo de generación: 21-05-2019 a las 11:36:23
+-- Versión del servidor: 10.1.38-MariaDB
+-- Versión de PHP: 7.3.4
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Base de datos: `talend`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `mails`
+--
+
+CREATE TABLE `mails` (
+  `id` int(11) NOT NULL,
+  `mail` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `mails`
+--
+
+INSERT INTO `mails` (`id`, `mail`) VALUES
+(1, 'alex.serra@in2.es'),
+(2, 'sergi.monforte@in2.es'),
+(3, 'jaime.pena@in2.es'),
+(4, 'sergi.casas@in2.es');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `migration_destiny`
+--
+
+CREATE TABLE `migration_destiny` (
+  `col1` int(10) NOT NULL,
+  `col2` int(10) NOT NULL,
+  `col3` int(10) NOT NULL,
+  `col4` int(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `migration_origin`
+--
+
+CREATE TABLE `migration_origin` (
+  `col1` int(11) NOT NULL,
+  `col2` int(11) NOT NULL,
+  `col3` int(11) NOT NULL,
+  `col4` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `migration_origin`
+--
+
+INSERT INTO `migration_origin` (`col1`, `col2`, `col3`, `col4`) VALUES
+(1, 2, 3, 4),
+(4, 3, 2, 1),
+(5, 5, 5, 5),
+(5, 4, 3, 2),
+(2, 3, 4, 5),
+(2, 2, 2, 2),
+(1, 1, 2, 2);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `tabla1`
+--
+
+CREATE TABLE `tabla1` (
+  `col1` int(11) NOT NULL,
+  `col2` int(11) NOT NULL,
+  `col3` int(11) NOT NULL,
+  `col4` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `tabla1`
+--
+
+INSERT INTO `tabla1` (`col1`, `col2`, `col3`, `col4`) VALUES
+(1, 2, 3, 4),
+(4, 3, 2, 1);
+
+--
+-- Índices para tablas volcadas
+--
+
+--
+-- Indices de la tabla `mails`
+--
+ALTER TABLE `mails`
+  ADD PRIMARY KEY (`id`);
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

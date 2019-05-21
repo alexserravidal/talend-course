@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_srfs8HfNEemYmMgtq-895g" name="DBConnectionTalendPrueba" id="_c5aUQHfNEemYmMgtq-895g" label="DBConnectionTalendPrueba" dataPackage="_ssgZkHfNEemYmMgtq-895g" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://localhost:3306/talend_prueba?noDatetimeStringSync=true&amp;serverTimezone=UTC" dbVersionString="MYSQL_8" Port="3306" Username="root" Password="" ServerName="localhost" DatasourceName="" FileFieldName="" SID="talend_prueba" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true&amp;serverTimezone=UTC" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_srfs8XfNEemYmMgtq-895g" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_ssAqUHfNEemYmMgtq-895g" tag="package filter" value=""/>
+    <taggedValue xmi:id="_ssGw8HfNEemYmMgtq-895g" tag="Status" value=""/>
+    <taggedValue xmi:id="_ssGw8XfNEemYmMgtq-895g" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_ssGw8nfNEemYmMgtq-895g" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_ssGw83fNEemYmMgtq-895g" tag="Description" value=""/>
+    <taggedValue xmi:id="_ssGw9HfNEemYmMgtq-895g" tag="Author" value=""/>
+    <taggedValue xmi:id="_ssGw9XfNEemYmMgtq-895g" tag="otherParameter"/>
+    <taggedValue xmi:id="_ssLCYHfNEemYmMgtq-895g" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_ssLCYXfNEemYmMgtq-895g" tag="DB ProductVersion" value="5.5.5-10.1.38-MariaDB"/>
+    <taggedValue xmi:id="_ssLpcHfNEemYmMgtq-895g" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_srfs8nfNEemYmMgtq-895g" key="CONN_PARA_KEY_USERNAME" value="root"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_ssgZkHfNEemYmMgtq-895g" name="talend_prueba" dataManager="_srfs8HfNEemYmMgtq-895g">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_SnuzoHfOEemYmMgtq-895g" name="tabla1" id="_SnsXYHfOEemYmMgtq-895g" label="DBTalendPruebaTableTabla1" tableType="TABLE">
+      <taggedValue xmi:id="_SnuzoXfOEemYmMgtq-895g" tag="Comment" value=""/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_SnuzonfOEemYmMgtq-895g" name="id" label="id" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
+        <taggedValue xmi:id="_Snuzo3fOEemYmMgtq-895g" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_SnuzpHfOEemYmMgtq-895g" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_SnuzpXfOEemYmMgtq-895g" name="INT" numericPrecisionRadix="10" javaDataType="4"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_SnuzpnfOEemYmMgtq-895g" name="val1" label="val1" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
+        <taggedValue xmi:id="_Snuzp3fOEemYmMgtq-895g" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_SnuzqHfOEemYmMgtq-895g" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_SnuzqXfOEemYmMgtq-895g" name="INT" numericPrecisionRadix="10" javaDataType="4"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_SnuzqnfOEemYmMgtq-895g" name="val2" label="val2" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
+        <taggedValue xmi:id="_Snuzq3fOEemYmMgtq-895g" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_SnuzrHfOEemYmMgtq-895g" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_SnuzrXfOEemYmMgtq-895g" name="INT" numericPrecisionRadix="10" javaDataType="4"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

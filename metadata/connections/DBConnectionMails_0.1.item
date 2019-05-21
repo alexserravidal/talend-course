@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_QkTmMHumEemuHPiD1z7JZg" name="DBConnectionMails" id="_HoW-4HumEemuHPiD1z7JZg" label="DBConnectionMails" dataPackage="_UWvWAHumEemuHPiD1z7JZg" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://localhost:3306/mails?noDatetimeStringSync=true&amp;serverTimezone=UTC" dbVersionString="MYSQL_8" Port="3306" Username="root" Password="" ServerName="localhost" DatasourceName="" FileFieldName="" SID="mails" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true&amp;serverTimezone=UTC" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_QkTmMXumEemuHPiD1z7JZg" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_QkvrEHumEemuHPiD1z7JZg" tag="package filter" value=""/>
+    <taggedValue xmi:id="_Qk41AHumEemuHPiD1z7JZg" tag="Status" value=""/>
+    <taggedValue xmi:id="_Qk41AXumEemuHPiD1z7JZg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_Qk41AnumEemuHPiD1z7JZg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_Qk41A3umEemuHPiD1z7JZg" tag="Description" value=""/>
+    <taggedValue xmi:id="_Qk5cEHumEemuHPiD1z7JZg" tag="Author" value=""/>
+    <taggedValue xmi:id="_Qk5cEXumEemuHPiD1z7JZg" tag="otherParameter"/>
+    <taggedValue xmi:id="_UWZXwHumEemuHPiD1z7JZg" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_UWZXwXumEemuHPiD1z7JZg" tag="DB ProductVersion" value="5.5.5-10.1.38-MariaDB"/>
+    <taggedValue xmi:id="_UWZXwnumEemuHPiD1z7JZg" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_QkTmMnumEemuHPiD1z7JZg" key="CONN_PARA_KEY_USERNAME" value="root"/>
+    <parameters xmi:id="_TOPc4HumEemuHPiD1z7JZg" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_UWvWAHumEemuHPiD1z7JZg" name="mails" dataManager="_QkTmMHumEemuHPiD1z7JZg">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_V_KFUHumEemuHPiD1z7JZg" name="mails" id="_V_HpEHumEemuHPiD1z7JZg" label="mails" tableType="TABLE">
+      <taggedValue xmi:id="_V_KFUXumEemuHPiD1z7JZg" tag="Comment" value=""/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_V_KFUnumEemuHPiD1z7JZg" name="id" label="id" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
+        <taggedValue xmi:id="_V_KFU3umEemuHPiD1z7JZg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_V_KFVHumEemuHPiD1z7JZg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_V_KFVXumEemuHPiD1z7JZg" name="INT" numericPrecisionRadix="10" javaDataType="4"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_V_KFVnumEemuHPiD1z7JZg" name="mail" label="mail" length="65535" sourceType="TEXT" talendType="id_String" nullable="false">
+        <taggedValue xmi:id="_V_KFV3umEemuHPiD1z7JZg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_V_KFWHumEemuHPiD1z7JZg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_V_KFWXumEemuHPiD1z7JZg" name="TEXT" numericPrecisionRadix="10" javaDataType="-1"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>
